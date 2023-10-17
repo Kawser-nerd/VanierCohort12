@@ -1,0 +1,15 @@
+C:\Users\knafi\source\repos\WpfAppMSSQL\bin\Debug\WpfAppMSSQL.exe.config
+C:\Users\knafi\source\repos\WpfAppMSSQL\bin\Debug\WpfAppMSSQL.exe
+C:\Users\knafi\source\repos\WpfAppMSSQL\bin\Debug\WpfAppMSSQL.pdb
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\WpfAppMSSQL.csproj.AssemblyReference.cache
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\MainWindow.g.cs
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\App.g.cs
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\WpfAppMSSQL_MarkupCompile.cache
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\WpfAppMSSQL_MarkupCompile.lref
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\MainWindow.baml
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\WpfAppMSSQL.g.resources
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\WpfAppMSSQL.Properties.Resources.resources
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\WpfAppMSSQL.csproj.GenerateResource.cache
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\WpfAppMSSQL.csproj.CoreCompileInputs.cache
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\WpfAppMSSQL.exe
+C:\Users\knafi\source\repos\WpfAppMSSQL\obj\Debug\WpfAppMSSQL.pdb

@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfAppMSSQL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppMSSQL"
+        mc:Ignorable="d"
+        Title="Student Registration" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="std_id" HorizontalAlignment="Left" Margin="232,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" FontSize="14"/>
+        <Label Content="Student ID" HorizontalAlignment="Left" Margin="113,74,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="std_name" HorizontalAlignment="Left" Margin="232,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" FontSize="14"/>
+        <Label Content="Student Name" HorizontalAlignment="Left" Margin="113,122,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="std_email" HorizontalAlignment="Left" Margin="232,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" FontSize="14"/>
+        <Label Content="Student Email" HorizontalAlignment="Left" Margin="113,168,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="std_reg_year" HorizontalAlignment="Left" Margin="232,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" FontSize="14"/>
+        <Label Content="Registration Year" HorizontalAlignment="Left" Margin="113,217,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button x:Name="insert" Content="Insert" HorizontalAlignment="Left" Margin="474,100,0,0" VerticalAlignment="Top" FontSize="14" Height="58" Width="73" Click="insert_Click"/>
+        <Button x:Name="Update" Content="Update" HorizontalAlignment="Left" Margin="568,100,0,0" VerticalAlignment="Top" FontSize="14" Height="58" Width="73" Click="Update_Click"/>
+        <Button x:Name="delete" Content="Delete" HorizontalAlignment="Left" Margin="659,100,0,0" VerticalAlignment="Top" FontSize="14" Height="58" Width="73" Click="delete_Click"/>
+        <Button x:Name="select" Content="Select" HorizontalAlignment="Left" Margin="474,178,0,0" VerticalAlignment="Top" FontSize="14" Height="58" Width="73" Click="select_Click"/>
+        <Button x:Name="show" Content="Show All Info" HorizontalAlignment="Left" Margin="568,179,0,0" VerticalAlignment="Top" FontSize="14" Height="58" Width="164" Click="show_Click"/>
+        <Button x:Name="connection" Content="Create Connection" HorizontalAlignment="Left" Margin="474,63,0,0" VerticalAlignment="Top" Width="258" Click="connection_Click"/>
+        <DataGrid x:Name="dbGrid"  Margin="70,267,68,38"/>
+
+    </Grid>
+</Window>
