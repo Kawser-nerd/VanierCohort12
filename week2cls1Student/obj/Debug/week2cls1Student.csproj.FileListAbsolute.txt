@@ -1,0 +1,17 @@
+C:\Users\knafi\source\repos\week2cls1Student\bin\Debug\week2cls1Student.exe.config
+C:\Users\knafi\source\repos\week2cls1Student\bin\Debug\week2cls1Student.exe
+C:\Users\knafi\source\repos\week2cls1Student\bin\Debug\week2cls1Student.pdb
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\week2cls1Student.csproj.AssemblyReference.cache
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\MainWindow.g.cs
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\App.g.cs
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\week2cls1Student_MarkupCompile.cache
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\week2cls1Student_MarkupCompile.lref
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\MainWindow.baml
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\week2cls1Student.g.resources
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\week2cls1Student.Properties.Resources.resources
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\week2cls1Student.csproj.GenerateResource.cache
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\week2cls1Student.csproj.CoreCompileInputs.cache
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\week2cls1Student.exe
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\week2cls1Student.pdb
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\SecondWpf.g.cs
+C:\Users\knafi\source\repos\week2cls1Student\obj\Debug\SecondWpf.baml

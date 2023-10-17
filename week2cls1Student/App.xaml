@@ -1,0 +1,9 @@
+﻿<Application x:Class="week2cls1Student.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:week2cls1Student"
+             StartupUri="SecondWpf.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
