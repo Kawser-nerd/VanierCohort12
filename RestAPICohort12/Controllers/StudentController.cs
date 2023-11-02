@@ -50,5 +50,85 @@ namespace RestAPICohort12.Controllers
             return response;
         }
 
+        ////------------------------/////
+        /// GetStudentByID
+
+        [HttpGet] // this is going generate get request from Client
+        [Route("GetStudentByID/{id}")]
+
+        public Response GetStudentByID(int id)
+        {
+            Response response = new Response();
+            // configure the connection
+            SqlConnection con =
+                new SqlConnection(
+                    _configuration.GetConnectionString("studentConnection"));
+            // Call the DBApplication Class member
+            DBApplication dba = new DBApplication();
+            response = dba.GetStudentByID(con, id);
+
+            return response;
+        }
+
+        ////-- Add Student ////
+        //// Adding anything in RestAPI always generate Post Request
+
+        [HttpPost]
+        [Route("AddStudent")]
+        public Response AddStudent(Student student)
+        {
+            Response response = new Response();
+
+            // Configure the Connection
+            SqlConnection con =
+                new SqlConnection(
+                    _configuration.GetConnectionString("studentConnection"));
+            // Call the DBApplication class instance
+            DBApplication dBA = new DBApplication();
+            response=dBA.AddStudent(con, student);
+
+            return response;
+        }
+
+        //// -- Update the Student information ///
+        ///Any update command for Database in Put Request to the Server
+
+        [HttpPut]
+        [Route("UpdateStudent/{id}")]
+
+        public Response UpdateStudent(Student student, int id)
+        {
+            Response response = new Response();
+
+            SqlConnection con =
+                new SqlConnection(
+                    _configuration.GetConnectionString("studentConnection"));
+
+            DBApplication dBA = new DBApplication();
+            response=dBA.UpdateStudent(con, student, id);
+
+            return response;
+
+            
+        }
+
+        //// --- Delete Student ////
+        ///To delete any student/entry we need to generate Delete Request
+
+        [HttpDelete]
+        [Route("DeleteStudent/{id}")]
+        public Response DeleteStudent(int id)
+        {
+            Response response = new Response();
+
+            SqlConnection con =
+                new SqlConnection(
+                    _configuration.GetConnectionString("studentConnection"));
+            
+            DBApplication dBA = new DBApplication();
+            response= dBA.DeleteStudent(con, id);
+            return response;
+        }
+
     }
 }
