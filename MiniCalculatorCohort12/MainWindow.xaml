@@ -1,0 +1,24 @@
+﻿<Window x:Class="MiniCalculatorCohort12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MiniCalculatorCohort12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Mini Calculator" HorizontalAlignment="Center" Margin="0,33,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="inpA" HorizontalAlignment="Left" Margin="245,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <TextBox x:Name="inpB" HorizontalAlignment="Left" Margin="512,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Label Content="Number One" HorizontalAlignment="Left" Margin="151,93,0,0" VerticalAlignment="Top"/>
+        <Label Content="Number Two" HorizontalAlignment="Left" Margin="422,93,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Addition" Content="+" HorizontalAlignment="Left" Margin="161,165,0,0" VerticalAlignment="Top" Height="40" FontSize="20" Width="41" Click="Addition_Click"/>
+        <Button x:Name="Substraction" Content="-" HorizontalAlignment="Left" Margin="264,165,0,0" VerticalAlignment="Top" Height="40" FontSize="20" Width="41" Click="Substraction_Click"/>
+        <Button x:Name="Multiplication" Content="*" HorizontalAlignment="Center" Margin="0,165,0,0" VerticalAlignment="Top" Height="40" FontSize="20" Width="40" Click="Multiplication_Click"/>
+        <Button x:Name="Division" Content="/" HorizontalAlignment="Left" Margin="497,165,0,0" VerticalAlignment="Top" Height="40" FontSize="20" Width="41" Click="Division_Click"/>
+        <Button x:Name="Modulus" Content="%" HorizontalAlignment="Left" Margin="592,165,0,0" VerticalAlignment="Top" Height="40" FontSize="20" Width="40" Click="Modulus_Click"/>
+        <TextBox x:Name="Results" HorizontalAlignment="Left" Margin="359,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" Height="38" FontSize="18" IsEnabled="False"/>
+        <Label Content="Results" HorizontalAlignment="Left" Margin="276,274,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.87,0.502"/>
+
+    </Grid>
+</Window>
